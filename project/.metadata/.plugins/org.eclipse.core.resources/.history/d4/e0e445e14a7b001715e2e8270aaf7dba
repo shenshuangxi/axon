@@ -1,0 +1,14 @@
+package com.sundy.axon.eventhandling;
+
+import com.sundy.axon.domain.EventMessage;
+
+/**
+ * 该接口的实例用于处理事件
+ * @author Administrator
+ *
+ */
+public interface EventListener {
+
+	void handle(EventMessage event);
+	
+}

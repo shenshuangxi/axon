@@ -1,0 +1,7 @@
+package com.sundy.axon.cache;
+
+import javax.cache.configuration.CacheEntryListenerConfiguration;
+
+public class JCacheAdapter extends AbstractCacheAdapter<CacheEntryListenerConfiguration> {
+
+}

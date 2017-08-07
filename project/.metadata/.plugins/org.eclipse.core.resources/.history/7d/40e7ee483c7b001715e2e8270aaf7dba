@@ -1,0 +1,10 @@
+package com.sundy.axon.unitofwork;
+
+public interface UnitOfWOrkListner {
+
+	void afterCommit(UnitOfWork unitOfWork);
+	
+	void onRollback(UnitOfWork unitOfWork, Throwable failureCause);
+	
+	
+}

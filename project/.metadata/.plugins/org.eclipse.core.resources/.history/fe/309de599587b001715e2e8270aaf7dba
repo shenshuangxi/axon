@@ -1,0 +1,7 @@
+package com.sundy.axon.cache;
+
+public interface Cache {
+
+	<K, V> get(K key);
+	
+}

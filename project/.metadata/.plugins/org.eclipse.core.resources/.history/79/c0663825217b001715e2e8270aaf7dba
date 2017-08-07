@@ -1,0 +1,8 @@
+package com.sundy.axon.domain;
+
+import java.io.Serializable;
+import java.util.Map;
+
+public class MetaData implements Map<K, V>, Serializable {
+
+}

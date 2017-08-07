@@ -1,0 +1,5 @@
+package com.sundy.axon.unitofwork;
+
+public abstract class UnitOfWorkListenerAdapter implements UnitOfWOrkListner {
+
+}

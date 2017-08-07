@@ -1,0 +1,7 @@
+package com.sundy.axon.commandhandling.annotation;
+
+import com.sundy.axon.domain.AggregateRoot;
+
+public class AggregateAnnotationCommandHandler<T extends AggregateRoot> implements Subscribable,CommandHandler<Object> {
+
+}

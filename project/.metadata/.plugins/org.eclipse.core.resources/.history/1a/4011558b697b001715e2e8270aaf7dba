@@ -1,0 +1,9 @@
+package com.sundy.axon.common;
+
+public interface Subscribable {
+
+	void unsubscribe();
+	
+	void subscribe();
+	
+}

@@ -1,0 +1,22 @@
+package com.sundy.axon.cache;
+
+public interface Cache {
+
+	<K, V> V get(K key);
+	
+	<K, V> void put(K key, V value);
+	
+	<K, V> boolean putIfAbsent(K key, V value);
+	
+	<K> boolean containsKey(K key);
+	
+	void registerCacheEntryListener(EntryListener cacheEntryListener);
+	
+	void unregisterCacheEntryListener(EntryListener cacheEntryListener);
+	
+	interface EntryListener {
+		
+		
+	}
+	
+}

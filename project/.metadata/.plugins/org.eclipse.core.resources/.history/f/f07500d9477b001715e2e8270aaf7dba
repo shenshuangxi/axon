@@ -1,0 +1,7 @@
+package com.sundy.axon.domain;
+
+public interface EventRegistrationCallback {
+
+	<T> DomainEventMessage<T> onRegisteredEvent(DomainEventMessage<T> event);
+	
+}

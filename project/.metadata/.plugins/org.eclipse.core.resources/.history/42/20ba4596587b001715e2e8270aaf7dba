@@ -1,0 +1,5 @@
+package com.sundy.axon.cache;
+
+public interface Cache {
+
+}

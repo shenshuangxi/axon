@@ -1,0 +1,11 @@
+package com.sundy.axon.commandhandling;
+
+import com.sundy.axon.domain.CommandMessage;
+
+public interface CommandBus {
+
+	void dispatch(CommandMessage<?> command);
+	
+	void dispatch(CommandMessage<?> command, CommandCallback<R> callback);
+	
+}

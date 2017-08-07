@@ -1,0 +1,25 @@
+package com.sundy.axon.domain;
+
+/**
+ * 接口用于定义一些聚合根实体的约定
+ * @author Administrator
+ *
+ * @param <I> 聚合的唯一标识符类型
+ */
+public interface AggregateRoot<I> {
+
+	I getIdentifier();
+	
+	void commitEvents();
+	
+	int getUncommittedEventCount();
+	
+	DomainEventStream getUncommittedEvents();
+	
+	Long getVersion();
+	
+	boolean isDeleted();
+	
+	void addEventRegistrationCallback(EventRegistrationCallback eventRegistrationCallback);
+	
+}

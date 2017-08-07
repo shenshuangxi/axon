@@ -1,0 +1,17 @@
+package com.sundy.axon.domain;
+
+import java.util.Map;
+
+public interface CommandMessage<T> extends Message<T> {
+
+	/**
+	 * 返回要执行命令的名称
+	 * @return
+	 */
+	String getCommandName();
+	
+	CommandMessage<T> withMetaData(Map<String, ?> metaData);
+	
+	CommandMessage<T> andMetaData(Map<String, ?> metaData);
+	
+}

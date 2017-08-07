@@ -1,0 +1,44 @@
+package com.sundy.axon.unitofwork;
+
+import java.util.List;
+
+/**
+ * 接口用于描述 一个监听器，UnitOfWOrk状态改变时将通知已注册的监听器
+ * @author Administrator
+ *
+ */
+public interface UnitOfWOrkListner {
+
+	/**
+	 * UnitOfWOrk提交后，该方法执行。聚合被保存，并且事件将被调度分发。
+	 * 在某些情况下，事件可能已经被分发
+	 * 当该方法出现执行异常时，工作单元会调用{@link #onRollback(UnitOfWork, Throwable)}
+	 * @param unitOfWork 执行完提交的工作单元
+	 */
+	void afterCommit(UnitOfWork unitOfWork);
+	
+	/**
+	 * 工作单元回滚时执行该方法。工作单元执行失败可能选择执行该方法，
+	 * @param unitOfWork 正在执行回滚的工作单元
+	 * @param failureCause 失败原因
+	 */
+	void onRollback(UnitOfWork unitOfWork, Throwable failureCause);
+	
+	/**
+	 * 当工作单元提交。已经注册到发布事件中的事件将会执行该方法。监听器通过修改返回新事件的信息来修改
+	 * 注意，监听器，必须保证事件的所表达的意思不能改变。一般来说，这个方法一般只修改事件中的元数据
+	 * <p/>
+	 * 最简单的实现就是返回原事件
+	 * @param unitOfWork 事件注册的工作单元
+	 * @param event	事件
+	 * @param <T> 事件中信息携带的载体
+	 * @return
+	 */
+	<T> EventMessage<T> onEventRegistered(UnitOfWork unitOfWork, EventMessage<T> event);
+	
+	void onPrepareCommit(UnitOfWork unitOfWork, Set<AggregateRoot> aggregateRoots, List<EventMessage> events);
+	
+	void onPrepareTransactionCommit(UnitOfWork unitOfWork, Object transaction);
+	
+	void onCleanup(UnitOfWork unitOfWork);
+}

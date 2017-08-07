@@ -1,0 +1,9 @@
+package com.sundy.axon.unitofwork;
+
+import com.sundy.axon.domain.AggregateRoot;
+
+public interface SaveAggregateCallback<T extends AggregateRoot> {
+
+	void save(T aggregate);
+	
+}

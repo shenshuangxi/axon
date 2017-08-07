@@ -1,0 +1,7 @@
+package com.sundy.axon.commandhandling;
+
+public interface CommandBus {
+
+	void dispatch(CommandMessage<?> command);
+	
+}

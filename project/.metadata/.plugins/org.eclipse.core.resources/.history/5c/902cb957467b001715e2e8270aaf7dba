@@ -1,0 +1,5 @@
+package com.sundy.axon.domain;
+
+public interface DomainEventMessage extends EventMessage<T> {
+
+}

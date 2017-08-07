@@ -1,0 +1,13 @@
+package com.sundy.axon.domain;
+
+public interface DomainEventMessage<T> extends EventMessage<T> {
+
+	long getSequenceNumber();
+	
+	Object getAggregateIdentifier();
+	
+	DomainEventMessage<T> withMetaData(Map<String, ?> metaData);
+	
+	DomainEventMessage<T> withMetaData(Map<String, ?> metaData);
+	
+}

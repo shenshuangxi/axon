@@ -1,0 +1,9 @@
+package com.sundy.axon.common;
+
+public abstract class Assert {
+
+	private Assert(){}
+	
+	
+	
+}

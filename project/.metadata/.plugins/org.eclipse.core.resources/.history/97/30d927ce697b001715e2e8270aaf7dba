@@ -1,0 +1,14 @@
+package com.sundy.axon.common;
+
+/**
+ * 
+ * @author Administrator
+ *
+ */
+public interface Subscribable {
+
+	void unsubscribe();
+	
+	void subscribe();
+	
+}

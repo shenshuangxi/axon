@@ -1,0 +1,7 @@
+package com.sundy.axon.auditing;
+
+import com.sundy.axon.commandhandling.CommandHandlerInterceptor;
+
+public class AuditingInterceptor implements CommandHandlerInterceptor{
+
+}

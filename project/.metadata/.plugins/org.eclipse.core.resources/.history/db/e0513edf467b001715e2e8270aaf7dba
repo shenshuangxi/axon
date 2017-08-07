@@ -1,0 +1,21 @@
+package com.sundy.axon.domain;
+
+public interface DomainEventMessage<T> extends EventMessage<T> {
+
+	/**
+	 * 返回来自同一聚合生成的序列号
+	 * @return
+	 */
+	long getSequenceNumber();
+	
+	/**
+	 * 返回聚合的标识符
+	 * @return
+	 */
+	Object getAggregateIdentifier();
+	
+	DomainEventMessage<T> withMetaData(Map<String, ?> metaData);
+	
+	DomainEventMessage<T> withMetaData(Map<String, ?> metaData);
+	
+}

@@ -1,0 +1,17 @@
+package com.sundy.axon.domain;
+
+import java.util.Map;
+
+import org.joda.time.DateTime;
+
+public interface EventMessage<T> extends Message<T> {
+
+	String getIdentifier();
+	
+	DateTime getTimeStamp();
+	
+	EventMessage<T> withMetaData(Map<String, ?> metaData);
+	
+	EventMessage<T> andMetaData(Map<String, ?> metaData);
+
+}

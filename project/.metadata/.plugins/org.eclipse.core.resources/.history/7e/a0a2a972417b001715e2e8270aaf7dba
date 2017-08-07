@@ -1,0 +1,25 @@
+package com.sundy.axon.domain;
+
+/**
+ * 
+ * @author Administrator
+ *
+ * @param <I>
+ */
+public interface AggregateRoot<I> {
+
+	I getIdentifier();
+	
+	void commitEvents();
+	
+	int getUncommittedEventCount();
+	
+	DomainEventStream getUncommittedEvents();
+	
+	Long getVersion();
+	
+	boolean isDeleted();
+	
+	void addEventRegistrationCallback(EventRegistrationCallback eventRegistrationCallback);
+	
+}

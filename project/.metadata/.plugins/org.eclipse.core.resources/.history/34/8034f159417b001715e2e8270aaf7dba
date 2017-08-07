@@ -1,0 +1,19 @@
+package com.sundy.axon.domain;
+
+public interface AggregateRoot<I> {
+
+	I getIdentifier();
+	
+	void commitEvents();
+	
+	int getUncommittedEventCount();
+	
+	DomainEventStream getUncommittedEvents();
+	
+	Long getVersion();
+	
+	boolean isDeleted();
+	
+	void addEventRegistrationCallback(EventRegistrationCallback eventRegistrationCallback);
+	
+}

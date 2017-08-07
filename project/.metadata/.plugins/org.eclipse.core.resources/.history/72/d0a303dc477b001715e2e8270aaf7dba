@@ -1,0 +1,12 @@
+package com.sundy.axon.domain;
+
+/**
+ * 回调，用于允许通知组件，事件别注册到聚合。同时该回调让事件到达事件处理器之前让这些组件能够产生事件。
+ * @author Administrator
+ *
+ */
+public interface EventRegistrationCallback {
+
+	<T> DomainEventMessage<T> onRegisteredEvent(DomainEventMessage<T> event);
+	
+}

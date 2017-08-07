@@ -1,0 +1,53 @@
+package com.sundy.axon.cache;
+
+import net.sf.ehcache.Ehcache;
+import net.sf.ehcache.Element;
+import net.sf.ehcache.event.CacheEventListener;
+
+public class EhCacheAdapter extends AbstractCacheAdapter<CacheEventListener> {
+
+	private final Ehcache ehcache;
+	
+	public EhCacheAdapter(Ehcache ehcache){
+		this.ehcache = ehcache;
+	}
+	
+	public <K, V> V get(K key) {
+		final Element element = ehcache.get(key);
+		return element == null ? null : (V) element.getObjectValue();
+	}
+
+	public <K, V> void put(K key, V value) {
+		ehcache.put(new Element(key, value));
+	}
+
+	public <K, V> boolean putIfAbsent(K key, V value) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	public <K> boolean containsKey(K key) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+	@Override
+	protected CacheEventListener createListenerAdapter(
+			EntryListener cacheEntryListener) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void doRegisterListener(CacheEventListener adapter) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void doUnRegisterListener(CacheEventListener adapter) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

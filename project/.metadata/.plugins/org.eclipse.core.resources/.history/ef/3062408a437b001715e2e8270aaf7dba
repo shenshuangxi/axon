@@ -1,0 +1,11 @@
+package com.sundy.axon.domain;
+
+public interface DomainEventStream {
+
+	boolean hasNext();
+	
+	DomainEventMessage next();
+	
+	
+	
+}
