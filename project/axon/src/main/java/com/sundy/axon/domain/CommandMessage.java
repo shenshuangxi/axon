@@ -2,6 +2,12 @@ package com.sundy.axon.domain;
 
 import java.util.Map;
 
+/**
+ * 携带消息的命令载体，该消息包含改变应用状态的意图
+ * @author Administrator
+ *
+ * @param <T> 消息包含的载体类型
+ */
 public interface CommandMessage<T> extends Message<T> {
 
 	/**
