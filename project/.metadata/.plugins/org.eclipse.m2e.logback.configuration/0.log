@@ -1990,3 +1990,83 @@
 2017-08-07 12:42:07,204 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\axon\project\axon\src\main\resources
 2017-08-07 12:42:07,204 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-08-07 12:42:07,204 [Worker-59] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory E:\axon\project\axon\src\test\resources
+2017-08-08 01:37:43,663 [Worker-1] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-08-08 01:37:48,248 [Worker-14] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sundy:axon:0.0.1-SNAPSHOT @ /home/shenshuangxi/git/axon/axon/project/axon/pom.xml.
+2017-08-08 01:37:50,088 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar
+2017-08-08 01:37:50,804 [Worker-14] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-api/1.6.6/slf4j-api-1.6.6.jar
+2017-08-08 01:37:51,140 [Worker-14] WARN  o.e.a.i.i.DefaultRepositoryEventDispatcher - Failed to dispatch repository event to org.eclipse.m2e.core.internal.embedder.EclipseRepositoryListener: null
+2017-08-08 01:37:52,353 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 01:37:52,354 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 01:37:52,357 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 01:37:52,357 [Worker-14] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 01:37:54,452 [Worker-13] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sundy:axon:0.0.1-SNAPSHOT @ /home/shenshuangxi/git/axon/axon/project/axon/pom.xml.
+2017-08-08 01:37:57,592 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 01:37:57,593 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 01:37:57,609 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 01:37:57,615 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 01:38:54,780 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 01:38:54,780 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 01:38:54,782 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 01:38:54,782 [Worker-11] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 01:38:55,833 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 01:38:55,834 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 01:38:55,836 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 01:38:55,836 [Worker-8] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 01:39:02,965 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2017-08-08 01:39:03,367 [Worker-18] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.sundy:axon:0.0.1-SNAPSHOT @ /home/shenshuangxi/git/axon/axon/project/axon/pom.xml.
+2017-08-08 01:39:03,489 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /axon/src/main/java
+2017-08-08 01:39:03,490 [Worker-18] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /axon/src/test/java
+2017-08-08 01:39:03,576 [Worker-18] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 0 sec
+2017-08-08 01:39:03,924 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 01:39:03,925 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 01:39:03,928 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 01:39:03,928 [Worker-15] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 23:05:14,895 [Worker-3] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2017-08-08 23:05:17,835 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:05:17,836 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 23:05:17,841 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:05:17,841 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 23:06:12,524 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:06:12,524 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 23:06:12,529 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:06:12,529 [Worker-2] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 23:09:24,916 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:09:24,916 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 23:09:24,919 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:09:24,920 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 23:11:54,287 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:11:54,288 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 23:11:54,291 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:11:54,291 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 23:14:52,218 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:14:52,219 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 23:14:52,222 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:14:52,222 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 23:16:27,170 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:16:27,170 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 23:16:27,173 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:16:27,173 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 23:17:20,724 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:17:20,724 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 23:17:20,727 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:17:20,727 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 23:19:10,778 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:19:10,778 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 23:19:10,786 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:19:10,786 [Worker-20] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 23:19:17,788 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:19:17,788 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 23:19:17,791 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:19:17,791 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 23:19:33,988 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:19:33,988 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 23:19:33,990 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:19:33,990 [Worker-10] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 23:20:25,075 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:20:25,075 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 23:20:25,077 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:20:25,077 [Worker-6] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources
+2017-08-08 23:23:29,079 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:23:29,079 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/main/resources
+2017-08-08 23:23:29,083 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-08-08 23:23:29,084 [Worker-18] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/shenshuangxi/git/axon/axon/project/axon/src/test/resources

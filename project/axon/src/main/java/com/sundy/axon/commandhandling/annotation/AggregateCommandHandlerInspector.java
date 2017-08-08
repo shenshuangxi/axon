@@ -26,7 +26,10 @@ public class AggregateCommandHandlerInspector<T extends AggregateRoot> {
 	private final List<AbstractMessageHandler> handlers;
 	
 	public AggregateCommandHandlerInspector(Class<T> targetType, ParameterResolverFactory parameterResolverFactory) {
-		MethodMessageHandlerInspector inspector = MethodMessageHandlerInspector.getInstance(targetType,CommandHandler.class,parameterResolverFactory,true);
+		MethodMessageHandlerInspector inspector = MethodMessageHandlerInspector.getInstance(targetType,
+				CommandHandler.class,
+				parameterResolverFactory,
+				true);
 	}
 
 }
