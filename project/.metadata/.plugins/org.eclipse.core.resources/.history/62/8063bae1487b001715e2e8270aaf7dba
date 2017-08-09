@@ -1,9 +1,0 @@
-package com.sundy.axon.eventhandling;
-
-import com.sundy.axon.domain.EventMessage;
-
-public interface EventBus {
-
-	void publish(EventMessage... events);
-	
-}

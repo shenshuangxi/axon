@@ -1,5 +1,0 @@
-package com.sundy.axon.commandhandling;
-
-public interface CommandHandler<T> {
-
-}

@@ -1,7 +1,0 @@
-package com.sundy.axon.cache;
-
-import net.sf.ehcache.event.CacheEventListener;
-
-public class EhCacheAdapter extends AbstractCacheAdapter<CacheEventListener> {
-
-}

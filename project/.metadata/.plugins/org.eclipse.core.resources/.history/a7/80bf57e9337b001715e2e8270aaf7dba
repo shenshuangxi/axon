@@ -1,9 +1,0 @@
-package com.sundy.axon.commandhandling;
-
-import com.sundy.axon.domain.CommandMessage;
-
-public interface CommandHandlerInterceptor {
-
-	Object handle(CommandMessage<?> commandMessage, UnitOfWork unitOfWork, InterceptorChain interceptorChain);
-	
-}

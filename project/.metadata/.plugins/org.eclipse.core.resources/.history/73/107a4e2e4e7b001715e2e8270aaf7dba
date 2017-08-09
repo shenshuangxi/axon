@@ -1,7 +1,0 @@
-package com.sundy.axon.auditing;
-
-import com.sundy.axon.unitofwork.UnitOfWorkListenerAdapter;
-
-public class AuditUnitOfWorkListener extends UnitOfWorkListenerAdapter {
-
-}

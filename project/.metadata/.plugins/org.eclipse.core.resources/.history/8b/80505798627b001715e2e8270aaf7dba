@@ -1,5 +1,0 @@
-package com.sundy.axon.cache;
-
-public class JCacheAdapter extends AbstractCacheAdapter<CacheEntryListenerConfiguration> {
-
-}

@@ -1,5 +1,0 @@
-package com.sundy.axon.unitofwork;
-
-public interface SaveAggregateCallback<T> {
-
-}

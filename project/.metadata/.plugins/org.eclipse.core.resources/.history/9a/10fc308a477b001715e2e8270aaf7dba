@@ -1,5 +1,0 @@
-package com.sundy.axon.domain;
-
-public interface EventRegistrationCallback {
-
-}

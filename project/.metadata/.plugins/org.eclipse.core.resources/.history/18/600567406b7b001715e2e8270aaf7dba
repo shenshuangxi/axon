@@ -1,9 +1,0 @@
-package com.sundy.axon.commandhandling;
-
-public interface CommandCallback<R> {
-
-	void onSuccess(R result);
-	
-	void onFailure(Throwable cause);
-	
-}

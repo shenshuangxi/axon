@@ -1,7 +1,0 @@
-package com.sundy.axon.domain;
-
-public interface DomainEventMessage<T> extends EventMessage<T> {
-
-	long getSequenceNumber();
-	
-}
