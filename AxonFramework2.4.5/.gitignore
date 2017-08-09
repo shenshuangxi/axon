@@ -1,0 +1,10 @@
+*.iml
+axon.ipr
+axon.iws
+target/
+.idea/
+**/*.iml
+.classpath
+.project
+.settings/
+events/
