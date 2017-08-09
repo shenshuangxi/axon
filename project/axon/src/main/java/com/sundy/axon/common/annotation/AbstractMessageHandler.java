@@ -49,8 +49,16 @@ public abstract class AbstractMessageHandler implements Comparable<AbstractMessa
         return true;
     }
 	
+	/*
+	 * 根据给定的目标实例执行处理器。message依靠参数解析器生成处理器执行的参数
+	 */
 	public abstract Object invoke(Object target, Message message) throws InvocationTargetException, IllegalAccessException;
 	
+	/**
+	 * 返回成员所有的一个类型的注解
+	 * @param annotationType
+	 * @return
+	 */
 	public abstract <T extends Annotation> T getAnnotation(Class<T> annotationType);
 
 	public Class getPayloadType() {

@@ -37,7 +37,7 @@ public interface Message<T> extends Serializable {
 	 * 该方法类似于<code>getPayload().getClass()</code>，但是允许继承者，可以使用懒加载或反序列化来优化这个实现
 	 * @return
 	 */
-	Class<T> getPayloadType();
+	Class getPayloadType();
 	
 	/**
 	 * 返回消息的副本，用给定参数替换掉元数据，但是载体不变

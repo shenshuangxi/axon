@@ -79,4 +79,8 @@ public final class MethodMessageHandler extends AbstractMessageHandler {
 		return method.getAnnotation(annotationType);
 	}
 
+	public String getMethodName() {
+		return method.getName();
+	}
+
 }
