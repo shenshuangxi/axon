@@ -35,7 +35,7 @@ public class MetaData implements Map<String, Object>, Serializable {
 	 * @param metaDataEntries
 	 * @return
 	 */
-	public MetaData from(Map<String,?> metaDataEntries){
+	public static MetaData from(Map<String,?> metaDataEntries){
 		if(metaDataEntries instanceof MetaData){
 			return (MetaData) metaDataEntries;
 		}else if(metaDataEntries == null || metaDataEntries.isEmpty()){
