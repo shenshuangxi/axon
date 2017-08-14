@@ -8,11 +8,11 @@ package com.sundy.axon.domain;
 public interface EventRegistrationCallback {
 
 	/**
-	 * 当聚合注册事件到发布列表之前执行，
+	 * 通过该方法一个聚合可以向发布机构注册一个事件
 	 * 该接口的简单实现可以直接返回给定事件
 	 * @param event 将要注册的事件
 	 * @param <T> 载体类型
-	 * @return 实际发布的事件
+	 * @return 实际发布的事件，不能为空
 	 */
 	<T> DomainEventMessage<T> onRegisteredEvent(DomainEventMessage<T> event);
 	

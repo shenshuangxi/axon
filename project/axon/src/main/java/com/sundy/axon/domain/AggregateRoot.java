@@ -48,7 +48,7 @@ public interface AggregateRoot<I> {
 	boolean isDeleted();
 	
 	/**
-	 * 添加EventRegistrationCallback，用于在聚合注册到一个事件，该事件已注册到发布列表。 当聚合被提交，这个回调将被清空
+	 * 添加EventRegistrationCallback，用于一个已注册到发布列表中事件 当聚合被提交，这个回调将被清空
 	 * @param eventRegistrationCallback
 	 */
 	void addEventRegistrationCallback(EventRegistrationCallback eventRegistrationCallback);

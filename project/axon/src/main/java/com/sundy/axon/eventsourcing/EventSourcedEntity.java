@@ -11,7 +11,7 @@ import com.sundy.axon.domain.DomainEventMessage;
 public interface EventSourcedEntity {
 
 	/**
-	 * 使用该实体注册聚合根。 实体必须使用此聚合根领域事件。 聚合根负责跟踪所有应用的事件。
+	 * 使用该实体注册聚合根。 实体必须使用此聚合根来应用领域事件。 聚合根负责跟踪所有应用的事件。
 	 * <p/>
 	 * 父实体负责在传播事件之前对其子实体调用此方法。
 	 * 通常，这意味着在对其执行任何操作之前，所有实体都必须设置其聚合根集
