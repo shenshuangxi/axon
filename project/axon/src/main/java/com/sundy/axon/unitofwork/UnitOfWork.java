@@ -56,7 +56,7 @@ public interface UnitOfWork {
 	 * 那么只有关联到这个已提交聚合根的监听器被通知
 	 * @param listener
 	 */
-	void registerListener(UnitOfWOrkListner listener);
+	void registerListener(UnitOfWorkListener listener);
 	
 	/**
 	 * 注册一个聚合根到UnitOfWork，当UnitOfWork提交时该聚合根将被保存到仓库。该方法的返回聚合根实例将会作为该工作单元处理进程的组成

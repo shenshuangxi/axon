@@ -16,7 +16,7 @@ public final class MethodMessageHandler extends AbstractMessageHandler {
 
 	private final Method method;
 	
-	public MethodMessageHandler(Method method, ParameterResolver[] resolvers, Class<?> payloadType) {
+	private MethodMessageHandler(Method method, ParameterResolver[] resolvers, Class<?> payloadType) {
 		super(payloadType, method.getDeclaringClass(), resolvers);
 		this.method = method;
 	}
@@ -78,9 +78,37 @@ public final class MethodMessageHandler extends AbstractMessageHandler {
 	public <T extends Annotation> T getAnnotation(Class<T> annotationType) {
 		return method.getAnnotation(annotationType);
 	}
+	
 
 	public String getMethodName() {
 		return method.getName();
 	}
+
+	public Method getMethod() {
+		return method;
+	}
+	
+	@Override
+    public boolean equals(Object o) {
+        if (this == o) {
+            return true;
+        }
+        if (o == null || getClass() != o.getClass()) {
+            return false;
+        }
+        if (!super.equals(o)) {
+            return false;
+        }
+
+        MethodMessageHandler that = (MethodMessageHandler) o;
+        return method.equals(that.method);
+    }
+
+    @Override
+    public int hashCode() {
+        int result = super.hashCode();
+        result = 31 * result + method.hashCode();
+        return result;
+    }
 
 }

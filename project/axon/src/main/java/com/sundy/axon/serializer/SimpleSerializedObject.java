@@ -28,6 +28,13 @@ public class SimpleSerializedObject<T> implements SerializedObject<T> {
         this.type = serializedType;
 	}
 	
+	/**
+	 * 用给定的数据和序列化类型来实例化
+	 * @param data
+	 * @param dataType
+	 * @param type
+	 * @param revision
+	 */
 	public SimpleSerializedObject(T data, Class<T> dataType, String type, String revision) {
         this(data, dataType, new SimpleSerializedType(type, revision));
     }

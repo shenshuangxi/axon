@@ -12,6 +12,11 @@ import com.sundy.axon.domain.AggregateRoot;
 import com.sundy.axon.domain.EventMessage;
 import com.sundy.axon.eventhandling.EventBus;
 
+/**
+ * AbstractOfWork接口的抽象实现。 提供必要的实现来支持任何工作单元所需的大多数操作，例如管理注册CurrentUnitOfWork并支持嵌套工作单元。
+ * @author Administrator
+ *
+ */
 public abstract class NestableUnitOfWork implements UnitOfWork {
 
 	private static final Logger logger = LoggerFactory.getLogger(NestableUnitOfWork.class);
@@ -240,23 +245,6 @@ public abstract class NestableUnitOfWork implements UnitOfWork {
 		}
 	}
 
-	public boolean isTransactional() {
-		// TODO Auto-generated method stub
-		return false;
-	}
-
-	public void registerListener(UnitOfWOrkListner listener) {
-		// TODO Auto-generated method stub
-
-	}
-
-	public <T extends AggregateRoot> T registerAggregate(T aggregateRoot,
-			EventBus eventBus, SaveAggregateCallback<T> saveAggregateCallback) {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	
 	private final class CommitOnOuterCommitTask extends UnitOfWorkListenerAdapter{
 		@Override
         public void afterCommit(UnitOfWork unitOfWork) {

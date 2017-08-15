@@ -11,7 +11,7 @@ import com.sundy.axon.domain.EventMessage;
  * @author Administrator
  *
  */
-public interface UnitOfWOrkListner {
+public interface UnitOfWorkListener {
 
 	/**
 	 * UnitOfWOrk提交后，该方法执行。聚合被保存，并且事件将被调度分发。

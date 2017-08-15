@@ -6,7 +6,7 @@ import java.util.Set;
 import com.sundy.axon.domain.AggregateRoot;
 import com.sundy.axon.domain.EventMessage;
 
-public abstract class UnitOfWorkListenerAdapter implements UnitOfWOrkListner {
+public abstract class UnitOfWorkListenerAdapter implements UnitOfWorkListener {
 
 	public void afterCommit(UnitOfWork unitOfWork) {
 		

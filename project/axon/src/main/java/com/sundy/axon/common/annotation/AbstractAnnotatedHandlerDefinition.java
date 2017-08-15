@@ -37,7 +37,7 @@ public abstract class AbstractAnnotatedHandlerDefinition<T extends Annotation> i
 	 * @param annotation
 	 * @return
 	 */
-	public abstract Class<?> getDefinedPayload(T annotation);
+	protected abstract Class<?> getDefinedPayload(T annotation);
 	
 	@Override
     public String toString() {
