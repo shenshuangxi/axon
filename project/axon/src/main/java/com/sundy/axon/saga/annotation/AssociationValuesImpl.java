@@ -1,4 +1,4 @@
-package com.sundy.axon.saga;
+package com.sundy.axon.saga.annotation;
 
 import java.io.Serializable;
 import java.util.Collections;
@@ -6,6 +6,9 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 import java.util.concurrent.CopyOnWriteArraySet;
+
+import com.sundy.axon.saga.AssociationValue;
+import com.sundy.axon.saga.AssociationValues;
 
 /**
  * 默认实现的AssociationValues接口。 这个实现是完全可序列化的

@@ -8,7 +8,6 @@ import com.sundy.axon.domain.EventMessage;
 import com.sundy.axon.domain.IdentifierFactory;
 import com.sundy.axon.saga.AssociationValue;
 import com.sundy.axon.saga.AssociationValues;
-import com.sundy.axon.saga.AssociationValuesImpl;
 import com.sundy.axon.saga.Saga;
 
 /**
